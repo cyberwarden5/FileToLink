@@ -23,12 +23,12 @@ else:
 URL = environ.get("URL", "")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001722481997'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002638444467'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6653249747').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://partamnavai:Aftab123@cluster0.gxar1rq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://aftab:Aftab123#@infinite.fje6m9z.mongodb.net/?retryWrites=true&w=majority&appName=infinite")
+DATABASE_NAME = environ.get('DATABASE_NAME', "infinite")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', False)) # Set True Or False
